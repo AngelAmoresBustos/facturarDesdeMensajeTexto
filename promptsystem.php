@@ -1,7 +1,7 @@
 <?php
 //Archivo con el prompt system para la extración de datos para la facturación
-$apiKey_DS = 'sk-5eda371bef4d413f830884d26ff750b2';
-$apiKey = 'AIzaSyD7Do4-BnjFScGOtp6jfVYw1GOzJcReyeA'; 
+$apiKey_DS = 'tiu_api_key_aqui';
+$apiKey = 'tu_api_key_aqui'; 
 $model = 'gemini-1.5-flash-latest'; 
 $server = "https://generativelanguage.googleapis.com/v1beta/models/{$model}:generateContent?key={$apiKey}";
 
